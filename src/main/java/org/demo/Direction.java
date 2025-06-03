@@ -2,5 +2,5 @@ package org.demo;
 
 public enum Direction
 {
-    EAST, NORTH
+    EAST, WEST, NORTH, SOUTH
 }
