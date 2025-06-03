@@ -27,12 +27,15 @@ public class Rover
                 break;
             case WEST:
                 direction = Direction.SOUTH;
+                break;
             case NORTH:
                 direction = Direction.WEST;
+                break;
             case SOUTH:
                 direction = Direction.EAST;
-
+                break;
             default:
+                break;
         }
     }
 
