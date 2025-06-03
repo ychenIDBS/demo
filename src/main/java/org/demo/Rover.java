@@ -7,10 +7,10 @@ public class Rover
     private Map<Integer, Integer> position;
     private Direction direction;
 
-    public Rover(Direction direction, Map<Integer, Integer> postion)
+    public Rover(Direction direction, Map<Integer, Integer> position)
     {
         this.direction = direction;
-        this.position = postion;
+        this.position = position;
     }
 
     public Direction getDirection()
