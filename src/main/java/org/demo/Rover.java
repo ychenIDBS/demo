@@ -20,7 +20,7 @@ public class Rover
 
     public void left()
     {
-        switch(direction)
+        switch (direction)
         {
             case EAST:
                 direction = Direction.NORTH;
@@ -42,5 +42,26 @@ public class Rover
     public Map<Integer, Integer> getPosition()
     {
         return position;
+    }
+
+    public void right()
+    {
+        switch (direction)
+        {
+            case EAST:
+                direction = Direction.SOUTH;
+                break;
+            case WEST:
+                direction = Direction.NORTH;
+                break;
+            case NORTH:
+                direction = Direction.EAST;
+                break;
+            case SOUTH:
+                direction = Direction.WEST;
+                break;
+            default:
+                break;
+        }
     }
 }
