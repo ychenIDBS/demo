@@ -46,6 +46,7 @@ public class Rover
 
     public void right()
     {
+        //
         switch (direction)
         {
             case EAST:
